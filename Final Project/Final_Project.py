@@ -60,16 +60,70 @@ class ChickenSauteRecipe(Recipes):
     def __init(self, recipe_name):
         super().__init__(recipe_name)
 
+    def hash(self):
+        print("chop the chicken meat")
+
+    def prepare_vegetables(self):
+        print("Chop the tomato, pepper and onion")
+
+    def pry(self):
+        print("Fry the chicken on low heat, stirring occasionally.")
+
+    def add_onion(self):
+        print("Add the onions and the finely cut garlic after a little water.")
+
+    def add_spices(self):
+        print("After frying for 1-2 minutes, add the peppers.")
+
+    def add_vegetables(self):
+        print("When the peppers are sautéed, add the tomato, tomato paste, spices and salt and continue to cook.")
+
+    def last_step(self):
+        print("Finally, add 1 glass of water and cook with the lid closed until the meats are cooked.")
+
     def start(self):
-        pass
+        self.lets_start()
+        self.hash()
+        self.prepare_vegetables()
+        self.open_the_cooker()
+        self.put_the_cooker()
+        self.pry()
+        self.add_onion()
+        self.add_spices()
+        self.add_vegetables()
+        self.last_step()
+        self.finish()
 
 
 class ChickenSoup(Recipes):
     def __init(self, recipe_name):
         super().__init__(recipe_name)
 
+    def boiling(self):
+        print("Let's take the chicken into the pot, add salt and boil it")
+
+    def prepare_saucepan(self):
+        print("When the avuk juice is ready, let's take oil, butter and flour in the pot and roast it.")
+
+    def mixing(self):
+        print("When the smell of flour comes out, let's add chicken broth little by little and mix it quickly.")
+
+    def add_chicken(self):
+        print("When it starts to boil, let's throw away the noodle and chicken pieces.")
+
+    def ready_after_cooking(self):
+        print("When the vermicelli is cooked, our soup is ready. Let's serve with lemon.")
+
     def start(self):
-        pass
+        self.lets_start()
+        self.boiling()
+        self.open_the_cooker()
+        self.put_the_cooker()
+        self.prepare_saucepan()
+        self.mixing()
+        self.add_chicken()
+        self.ready_after_cooking()
+        self.finish()
 
 
 choice = '0'
