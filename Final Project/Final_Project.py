@@ -137,7 +137,7 @@ while choice != '4':
     choice = input("Please make a choice: ")
 
     if choice == "1":
-        rice_recipe = RiceRecipe("Pilav \n")
+        rice_recipe = RiceRecipe("Rice \n")
         rice_recipe.start()
     elif choice == "2":
         chicken_saute_recipe = ChickenSauteRecipe("Chicken Saute \n")
