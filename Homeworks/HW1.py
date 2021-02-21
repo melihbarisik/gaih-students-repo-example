@@ -23,7 +23,7 @@ def print_random_matrix():
         for j in range(sizeOfMatrix):
             print(matrix[i][j], end=" ")
         print()
-
+        
 
 sizeOfMatrix = 3
 matrix = [[0 for i in range(sizeOfMatrix)] for j in range(sizeOfMatrix)]
