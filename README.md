@@ -8,6 +8,7 @@
   
 
 ### Certification
-![](img/certificate_ex.png![31706558670357](https://user-images.githubusercontent.com/45101301/111077370-923f1000-8501-11eb-8cfd-6d7952569b32.png)
+![](![Uploading 31706558670357.png…]()
+)
 )
 
